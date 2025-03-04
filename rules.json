@@ -1,0 +1,34 @@
+[
+  {
+    "condition": {
+      "soilType": "Clay",
+      "loadBearingCapacity": [100, 150],
+      "moistureContent": [5, 10],
+      "floors": 2,
+      "area": [100, 200],
+      "windSpeed": "10 - 20",
+      "environment": "Normal"
+    },
+    "result": {
+      "concrete_grade": "M20",
+      "steel_diameter": "8 (Main), 6 (Secondary)",
+      "beam_size": "200 x 300"
+    }
+  },
+  {
+    "condition": {
+      "soilType": "Sandy",
+      "loadBearingCapacity": [150, 200],
+      "moistureContent": [0, 5],
+      "floors": 1,
+      "area": [50, 100],
+      "windSpeed": "30 - 50",
+      "environment": "Coastal"
+    },
+    "result": {
+      "concrete_grade": "M25",
+      "steel_diameter": "10 (Main), 8 (Secondary)",
+      "beam_size": "250 x 350"
+    }
+  }
+]
